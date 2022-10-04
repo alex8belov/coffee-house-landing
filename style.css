@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+.wrapper-header {
+    display: flex;
+    width: 1280px;
+    margin: 0 auto;
+    padding: 29px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.bold-text {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 89px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.medium-text {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.light-text {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.logo {
+    text-decoration: none;
+}
+.menu-list {
+    list-style: none;
+}
+.menu-item {
+    display: inline-block;
+}
+.menu-item:not(:first-child) {
+    margin-left: 46px;
+}
+.menu-link {
+    text-decoration: none;
+    
+}
+.slogan-bg {
+    background: url("img/coffee-cup.jpeg");
+    padding: 267px 0;
+    background-position: center;
+}
+.slogan::after {
+    display: block;
+    content: "";
+    height: 10px;
+    width: 80px;
+    background: #817070;
+    margin: 0 auto;
+}
+.story-section {
+    padding: 60px 0;
+}
+.story-main {
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1280px;
+}
+.story-image {
+    width: 600px;
+    height: 400px;
+}
+.story-text {
+    width: 597px;
+    text-transform: none;
+    margin-left: 40px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.blog-section {
+    background-color: #EFEFEF;
+    padding-top: 60px;
+    padding-bottom: 65px;
+}
+.card-gallery {
+    display: flex;
+    justify-content: space-between;
+    width: 1235px;
+    margin: 60px auto 0 auto;
+}
+.card-image {
+    width: 325px;
+    height: 216px;
+}
+.first-image {
+    background: url("img/image1.jpg");
+}
+.second-image {
+    background: url("img/image2.jpg");
+}
+.third-image {
+    background: url("img/image3.jpg");
+}
