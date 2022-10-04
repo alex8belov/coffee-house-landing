@@ -57,7 +57,9 @@ h1, h2, h3 {
 }
 .menu-link {
     text-decoration: none;
-    
+}
+.menu-link:hover {
+    color: #817070;
 }
 .slogan-bg {
     background: url("img/coffee-cup.jpeg");
